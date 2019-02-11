@@ -1,1 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
 
+body  { 
+  background:#000000;
+  margin:0;
+  padding:0;
+}
+
+
+#top { 
+ width:100%;
+  background:#000000; 
+  height:50px;
+}
+
+#container {
+width:970px;
+background:#999999;
+padding:20px;
+margin:0px auto 0px auto;
+}
+
+#banner {
+ width:964px;
+ height:154px;
+ border:1px solid #ffffff;
+ background:#ffffff;
+}
+
+#nav {
+ width:962px;
+ height:58px;
+ border:1px solid #ffffff;
+ margin-top:20px;
+ background:#ffffff;
+}
+
+#slider {
+ width:958px;
+ height:300px;
+ border:1px solid #ffffff;
+ overflow:auto;
+ margin-top:20px;
+ margin-bottom:20px; 
+ background:#ffffff;
+}
+
+#text {
+ width:722px;
+ margin-right:20px;
+ min-height:250px; 
+ background:#ffffff;
+ float:left;
+}
+
+#links {
+ width:216px;
+ border:1px solid #000000;
+ min-height:250px;
+ float:left; 
+ background:#ffffff;
+}
+
+#thumb1 {
+float:left;
+width:300px;
+margin-right:20px; 
+}
+
+#thumb2 { 
+float:left;
+width:300px;
+margin-right:20px; 
+}
+
+#thumb3 {
+float:left;
+width:300px;
+}
+
+#thumb4 {
+clear:left;
+float:left;
+width:300px;
+margin-right:20px; 
+}
+
+#thumb5 {
+float:left;
+width:300px;
+margin-right:20px; 
+}
+
+#thumb6 {
+float:left;
+width:300px;
+}
+
+#thumb7 {
+clear:left;
+float:left;
+width:300px;
+margin-right:20px; 
+}
+#thumb8{
+clear:left;
+float:left;
+width:300px;
+margin-right:20px;
+}
+
+#footer {
+ clear:left;
+ width:100%;
+  background:#e8efe4;
+  height:50px;
+}
+
+#content {
+ width:960px;
+}
