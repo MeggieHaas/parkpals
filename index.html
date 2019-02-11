@@ -2,63 +2,246 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Park Pals</title>
+<title>Untitled Document</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<div id="top">
-
-</div>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #FFFFFF;
+}
+.style1 {
+	font-size: 24px
+}
+.style2 {font-size: 36px; }
+-->
+</style></head>
 <body>
-
 <div id="container">
   <div id="banner">
    <img src="images/banner.jpg" />
-
   </div>
   <div id="nav">
   <img src="nav.jpg" border="0" usemap="#Map" />
-<map name="Map" id="Map"><area shape="rect" coords="81,7,212,49" href="home.html" />
-<area shape="rect" coords="295,8,437,51" href="about.html" />
-<area shape="rect" coords="523,6,623,48" href="pals.html" />
-<area shape="rect" coords="716,6,885,56" href="gallery.html" />
+<map name="Map" id="Map"><area shape="rect" coords="81,7,208,49" href="home.html" />
+<area shape="rect" coords="300,8,428,53" href="about.html" />
+<area shape="rect" coords="522,10,621,48" href="pals.html" />
+<area shape="rect" coords="714,8,876,55" href="gallery.html" />
 </map>
 </div>
-<p><center>
-  Mary Ann Wilsbacher - President
-  </p>
-  <p>
-  Andy Haas - Vice President
-  </p>
-  <p>
-  Ashley Nanninga - Secretary
-  </p>
-  <p>
-  Stacey Cobb - Social Media Secretary
-  </p>
-  <p>
-  Mike Carroll - Treasurer
-  </p>
-  <p>
-    Meggie Haas - Youth President
-  </p>
-  <div id="slider">
-  <img src="images/park9.jpg" />
- <p>Town of Newburgh Parks Pals 
- </p>
- <p>
-P.O. Box 6
-Newburgh, IN 47629<p>
-Phone: 812-853-1720<p>
-Fax: 812-853-1727
+<p>
+Membership Matters
+The benefits of a yearly membership:
+All levels receive a yearly newsletter.
 </p>
-<center>
-  </div>
+<p>
+<span class="style1 class uline">Pal</span> ($35.00 - $99.00) </p>
+<p>
+<span class="style1 class uline">Steward</span> ($100 - $249)</p>
+<p>
+10% discount on Old Lock & Dam
+Rental or Lockmaster Cottage Rental
+(one time only)
+</p>
+<p>
+<span class="style1 class uline">Conserver</span> ($250- $499)</p>
+<p>10% discount on Old Lock &amp; Dam Rental and Lockmaster Cottage Rental (one time only on each) </p>
+<p> 
+<span class="style1 class uline">Sustainer</span> ($500-$999)</p>
+<p>
+10% discount on Old Lock &amp; Dam Rental and Lockmaster Cottage Rental (Unlimited) 
+</p>
+<p><span class="style1 class uline">Benefactor</span> ($1000+)</p>
+<p>One free night stay in a Lockkmaster Cottage</p>
+<p>10% discount on Old Lock &amp; Dam Rental and Lockmaster Cottage Rental (Unlimited)</p>
+<p class="style2">Become a Pal here!</p>
+<form id="form11" name="form11" method="post" action="emailPal.php">
+  <table width="100%" border="1" cellspacing="10" cellpadding="10">
+  <tr>
+    <th width="58%" scope="row">Name:</th>
+    <td width="42%">
+      <label>
+      <input type="text" name="name" id="name" />
+      </label>
+      </td>
+  </tr>
+  <tr>
+    <th scope="row">Company Name:</th>
+    <td>
+      <label>
+      <input type="text" name="name2" id="name2" />
+        </label>
+        </td>
+  </tr>
+  <tr>
+    <th scope="row">Street Address:</th>
+    <td>
+      <label>
+        <input type="text" name="street" id="street" />
+        </label>
+        </td>
+  </tr>
+  <tr>
+    <th scope="row">City, State &amp; Zip:</th>
+    <td>
+      <label>City
+        <input type="text" name="city" id="city" />
+        </label>
+        <br \ />
+      <label>State
+     <select>
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+</select>				
+      </label>
+      <br \ />
+      <label>Zip
+      <input type="text" name="zip" id="zip" />
+</label>
 
-  <div id="footer">
- <div id="fcontent">
+       </td>
+  </tr>
+  <tr>
+    <th scope="row">Phone Number:</th>
+    <td>
+      <label>
+        <input type="text" name="number`" id="number`" />
+        </label>
+       </td>
+  </tr>
+  <tr>
+    <th scope="row">E-mail Address:</th>
+    <td>
+      <label>
+        <input type="text" name="email" id="email" />
+        </label>
+      </td>
+  </tr>
+  <tr>
+    <th scope="row">Membership Type:</th>
+    <td>
+      <label>
+        <select name="type" size="1" id="type">
+          <option>Pal ($35.00 - $99.00) per year</option>
+          <option>Steward ($100 - $249)per year</option>
+          <option>Conserver ($250 - $499)per year</option>
+          <option>Sustainer ($500 - $999)per year</option>
+          <option>Benefactor ($1000+)per</option>
+        </select>
+        </label>
+  </td>
+  </tr>
+  <tr>
+    <th scope="row">Amout Enclosed:</th>
+    <td>
+      <label>
+        <input name="amount" type="text" id="amount" value="$" />
+        </label>
+       </td>
+  </tr>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick" />
+    <input type="hidden" name="hosted_button_id" value="YPZXYY6WPFR64" />
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+  </form>
+
+  <tr>
+    <th scope="row">I do not want to be recognized in the newsletter and annual report. Please keep my donation anonymous.</th>
+    <td>
+      <label></label>
+      <input name="check" type="checkbox" id="check" />
+       </td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td><input name="submit" type="submit" class="style1" id="submit" value="Submit" />
+      <input name="Reset" type="reset" class="style1" id="Reset" value="Reset" /></td>
+  </tr>
+</table>
+
+  <label></label>
+  <label></label>
   
-  Copyright &copy; 2018 Park Pals,All Rights Reserved
-</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</form>
+<p>&nbsp;</p>
 </div>
 </body>
 </html>
